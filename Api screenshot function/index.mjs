@@ -69,7 +69,7 @@ export const handler = async (event) => {
             ],
             defaultViewport: chromium.defaultViewport,
             executablePath: await chromium.executablePath(
-                'https://github.com/missturboeu/AWS-MissTu/raw/main/chromium-v123.0.1-pack.tar',
+                'https://github.com/Sparticuz/chromium/releases/download/v123.0.1/chromium-v123.0.1-pack.tar',
             ),
             headless: false, // Run in non-headless mode
             ignoreHTTPSErrors: true,
